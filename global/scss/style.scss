@@ -73,6 +73,16 @@ button {
   &__logo {
     margin-right: 25px;
   }
+  &__burger {
+    width: 55px;
+    height: 55px;
+    background: #48b774;
+    border-radius: 50px;
+    padding: 14px;
+    @include elements-in-center;
+    justify-content: center;
+    display: none;
+  }
   &__menu {
     display: flex;
     li {
@@ -255,6 +265,12 @@ button {
   .header {
     &__menu {
       display: none;
+    }
+    &__btn{
+        display: none;
+    }
+    &__burger {
+      display: flex;
     }
   }
 }

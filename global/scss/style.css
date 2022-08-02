@@ -302,41 +302,41 @@ button {
   transition: 0.5s;
 }
 
-#flag0 {
+.flag0 {
   left: 2px;
   top: 62%;
   width: 80px;
   height: 80px;
 }
 
-#flag1 {
+.flag1 {
   left: 6%;
   top: 28%;
 }
 
-#flag2 {
+.flag2 {
   top: 9px;
   left: 55%;
 }
 
-#flag3 {
+.flag3 {
   top: 29%;
   left: 94%;
 }
 
-#flag4 {
+.flag4 {
   left: 100%;
   top: 62%;
   width: 80px;
   height: 80px;
 }
 
-#flag5 {
+.flag5 {
   top: 100%;
   left: 34%;
 }
 
-#flag6 {
+.flag6 {
   top: 95%;
   left: 73%;
 }

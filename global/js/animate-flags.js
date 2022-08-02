@@ -7,7 +7,7 @@ const appearanceOfFlags = () => {
   let increment = 1;
   flags.forEach((flag, index) => {
     const addId = setTimeout(() => {
-      flag.id = `flag${index}`;
+      flag.classList.add(`flag${index}`);
       clearTimeout(addId);
     }, interval * increment);
     increment = increment + 1;

@@ -263,14 +263,56 @@ button {
 }
 @media screen and (max-width: 768px) {
   .header {
-    &__menu {
-      display: none;
+    position: sticky;
+    background: #ecf7f3;
+    top: 0px;
+    &__container {
+      padding: 30px 0;
     }
-    &__btn{
-        display: none;
+    &__logo {
+      margin: 0;
+    }
+    &__menu {
+      position: fixed;
+      display: none;
+      flex-direction: column;
+      top: 115px;
+      width: 100%;
+      background: #ecf7f3;
+      z-index: 10;
+      align-items: center;
+      border-bottom: 2px solid $color-botton;
+      padding-bottom: 70px;
+      li {
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+          margin: 15px;
+        }
+      }
+    }
+    &__btn {
+      position: absolute;
+      bottom: -290px;
+      z-index: 15;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
     }
     &__burger {
       display: flex;
+    }
+  }
+  .active {
+    display: flex;
+    animation: showBlock 0.5s linear forwards;
+  }
+  .about {
+    &__btn,
+    &__search,
+    &__user-img {
+      z-index: -1;
     }
   }
 }
@@ -300,3 +342,11 @@ button {
     }
   }
 }
+@keyframes showBlock {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

@@ -10,23 +10,89 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="scss/style.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header__container container">
         <nav class="header__nav">
-          <img src="img/logo.svg" alt="logo" />
+          <img class="header__logo" src="img/logo.svg" alt="logo" />
           <ul class="header__menu">
-            <li class="header__menu_active-link"><a href="#">Mobile Top Up</a></li>
+            <li class="header__menu_active-link">
+              <a href="#">Mobile Top Up</a>
+            </li>
             <li><a href="#">About</a></li>
             <li><a href="#">Rate</a></li>
             <li><a href="#">Help</a></li>
           </ul>
-          <button class="btn">Sign Up</button>
+          <button class="header__btn btn">Sign Up</button>
         </nav>
       </div>
     </header>
+    <section class="about">
+      <div class="about__container container">
+        <div class="about__info">
+          <h1 class="about__title">
+            <span>Now Buy Your</span>
+            <span>PIN or <span class="about__title_top-up">Top Up</span></span>
+            <span class="about__title_transfer">With Bank Transfer</span>
+          </h1>
+          <p class="about__description">
+            We Make international calling simple, relible, and cheap basedon
+            your unique calling behavior.
+          </p>
+          <button class="about__btn btn">Get Started</button>
+          <form class="about__search">
+            <input
+              class="about__search-field"
+              type="text"
+              placeholder="Where do you want to call?"
+              minlength="4"
+              maxlength="12"
+            />
+            <button class="about__search-img">
+              <img src="img/search.svg" alt="search" />
+            </button>
+          </form>
+          <div class="about__user">
+            <div class="about__user-img">
+              <img src="img/people1.png" alt="people" />
+              <img src="img/people2.png" alt="people" />
+              <img src="img/people3.png" alt="people" />
+              <button class="about__user_plus">
+                <svg
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.5 3.95837V15.0417"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3.95703 9.5H9.4987H15.0404"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <p class="about__text">45k+ Regular User. <span class="about__text about__text_view">View Price Plan</span></p>
+            
+          </div>
+        </div>
+        <div class="about__picture">
+            <img class="about__picture-girl" src="img/Group-img.png" alt="girl-image">
+        </div>
+      </div>
+    </section>
   </body>
 </html>

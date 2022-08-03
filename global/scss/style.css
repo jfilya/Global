@@ -430,9 +430,6 @@ button {
     -webkit-animation: showBlock 0.5s linear forwards;
             animation: showBlock 0.5s linear forwards;
   }
-  .about__btn, .about__user-img {
-    z-index: -1;
-  }
   .about__picture {
     max-width: 50%;
     margin: 0 auto;

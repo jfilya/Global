@@ -397,10 +397,6 @@ button {
     animation: showBlock 0.5s linear forwards;
   }
   .about {
-    &__btn,
-    &__user-img {
-      z-index: -1;
-    }
     &__picture {
       max-width: 50%;
       margin: 0 auto;

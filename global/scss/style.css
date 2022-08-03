@@ -107,8 +107,8 @@ button {
   content: "";
   position: absolute;
   width: 21px;
-  border-bottom: 1.5px solid #fb9b69;
-  bottom: -3px;
+  border-bottom: 2px solid #fb9b69;
+  bottom: -2px;
   left: 40%;
 }
 
@@ -281,7 +281,7 @@ button {
   position: relative;
 }
 .about__picture-girl {
-  padding-top: 42px;
+  padding-top: 44px;
 }
 
 .flags {

@@ -248,7 +248,6 @@ button {
   width: 100px;
   position: relative;
   margin-right: 14px;
-  z-index: -1;
 }
 .about__user-img img {
   transition: 0.5s;

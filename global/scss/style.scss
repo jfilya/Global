@@ -64,7 +64,6 @@ button {
   margin: 0 auto;
 }
 .header {
-
   &__container {
     padding: 30px 22px 84px 8px;
   }
@@ -413,6 +412,29 @@ button {
     margin: auto;
     top: 10%;
   }
+  .flag1 {
+    left: -16%;
+    top: -7%;
+  }
+  .flag3 {
+    top: 6%;
+    left: 73%;
+  }
+  .flag3 {
+    top: 6%;
+    left: 73%;
+  }
+  .flag4 {
+    left: 80%;
+  }
+  .flag5 {
+    top: 71%;
+    left: 5%;
+  }
+  .flag6 {
+    top: 72%;
+    left: 53%;
+  }
 }
 @media screen and (max-width: 576px) {
   .about {
@@ -437,6 +459,27 @@ button {
     width: 80px;
     height: 80px;
   }
+  .flag0 {
+    left: -18px;
+  }
+  .flag1 {
+    left: -16%;
+    top: -1%;
+  }
+  .flag2 {
+    top: -38px;
+    left: 27%;
+  }
+  .flag4 {
+    left: 66%;
+  }
+  .flag5 {
+    top: 75%;
+    left: 28%;
+  }
+  .flag6 {
+    display: none;
+  }
 }
 @media screen and (max-width: 400px) {
   .about {
@@ -447,6 +490,26 @@ button {
   .flags {
     width: 150px;
     height: 150px;
+  }
+  .flag {
+    width: 60px;
+    height: 60px;
+  }
+  .flag0 {
+    left: -22px;
+  }
+  .flag1 {
+    left: -14%;
+    top: 8%;
+  }
+  .flag2 {
+    top: -26px;
+  }
+  .flag4 {
+    left: 75%;
+  }
+  .flag5 {
+    top: 79%;
   }
 }
 @keyframes showBlock {

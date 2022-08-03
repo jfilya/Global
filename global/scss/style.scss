@@ -64,6 +64,10 @@ button {
   margin: 0 auto;
 }
 .header {
+  position: sticky;
+  background: #ecf7f3;
+  top: 0px;
+  z-index: 5;
   &__container {
     padding: 30px 22px 84px 8px;
   }
@@ -226,6 +230,7 @@ button {
     width: 100px;
     position: relative;
     margin-right: 14px;
+    z-index: -1;
     img {
       transition: 0.5s;
       &:hover {
@@ -257,6 +262,7 @@ button {
   }
   &__picture {
     position: relative;
+    z-index: -2;
   }
   &__picture-girl {
     padding-top: 44px;
@@ -348,9 +354,6 @@ button {
 }
 @media screen and (max-width: 768px) {
   .header {
-    position: sticky;
-    background: #ecf7f3;
-    top: 0px;
     &__container {
       padding: 30px 0;
     }
@@ -395,7 +398,6 @@ button {
   }
   .about {
     &__btn,
-    &__search,
     &__user-img {
       z-index: -1;
     }

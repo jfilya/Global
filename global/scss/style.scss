@@ -258,6 +258,9 @@ button {
   &__picture {
     position: relative;
   }
+  &__picture-girl {
+    padding-top: 42px;
+  }
 }
 .flags {
   position: absolute;
@@ -393,6 +396,21 @@ button {
     &__user-img {
       z-index: -1;
     }
+    &__picture {
+      max-width: 50%;
+      margin: 0 auto;
+    }
+    &__picture-girl {
+      max-width: 100%;
+    }
+  }
+  .flags {
+    width: 270px;
+    height: 270px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -409,9 +427,14 @@ button {
       left: 50%;
       transform: translate(-50%, 0);
     }
-    &__picture-girl {
-      max-width: 100%;
-    }
+  }
+  .flags {
+    width: 170px;
+    height: 170px;
+  }
+  .flag{
+    width: 80px;
+    height: 80px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -419,6 +442,10 @@ button {
     &__text {
       font-size: 12px;
     }
+  }
+  .flags {
+    width: 150px;
+    height: 150px;
   }
 }
 @keyframes showBlock {

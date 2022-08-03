@@ -16,7 +16,6 @@ const appearanceOfFlags = () => {
 
 setTimeout(appearanceOfFlags, allInterval);
 allInterval += (400*flags.length);
-console.log(allInterval)
 const step = () => {
   flagBlock.style.animation = "rotateCircle 7s linear infinite";
 };

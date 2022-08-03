@@ -280,6 +280,9 @@ button {
 .about__picture {
   position: relative;
 }
+.about__picture-girl {
+  padding-top: 42px;
+}
 
 .flags {
   position: absolute;
@@ -423,6 +426,21 @@ button {
   .about__btn, .about__search, .about__user-img {
     z-index: -1;
   }
+  .about__picture {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  .about__picture-girl {
+    max-width: 100%;
+  }
+  .flags {
+    width: 270px;
+    height: 270px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10%;
+  }
 }
 @media screen and (max-width: 576px) {
   .about__title {
@@ -437,13 +455,22 @@ button {
     left: 50%;
     transform: translate(-50%, 0);
   }
-  .about__picture-girl {
-    max-width: 100%;
+  .flags {
+    width: 170px;
+    height: 170px;
+  }
+  .flag {
+    width: 80px;
+    height: 80px;
   }
 }
 @media screen and (max-width: 400px) {
   .about__text {
     font-size: 12px;
+  }
+  .flags {
+    width: 150px;
+    height: 150px;
   }
 }
 @-webkit-keyframes showBlock {

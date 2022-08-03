@@ -344,6 +344,10 @@ button {
   left: 73%;
 }
 
+.ajax {
+  padding-top: 30px;
+}
+
 @-webkit-keyframes rotateCircle {
   from {
     transform: rotate(0deg);

@@ -301,48 +301,47 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   z-index: -2;
   transition: 0.5s;
 }
 
 .flag0 {
-  left: 2px;
-  top: 62%;
+  left: -37px;
+  top: 53%;
   width: 80px;
   height: 80px;
 }
 
 .flag1 {
-  left: 6%;
-  top: 28%;
+  left: -10%;
+  top: 12%;
 }
 
 .flag2 {
-  top: 9px;
-  left: 55%;
+  top: -50px;
+  left: 41%;
 }
 
 .flag3 {
-  top: 29%;
-  left: 94%;
+  top: 15%;
+  left: 79%;
 }
 
 .flag4 {
-  left: 100%;
-  top: 62%;
+  left: 90%;
+  top: 53%;
   width: 80px;
   height: 80px;
 }
 
 .flag5 {
-  top: 100%;
-  left: 34%;
+  top: 80%;
+  left: 15%;
 }
 
 .flag6 {
-  top: 95%;
-  left: 73%;
+  top: 80%;
+  left: 60%;
 }
 
 .ajax {
@@ -444,6 +443,29 @@ button {
     margin: auto;
     top: 10%;
   }
+  .flag1 {
+    left: -16%;
+    top: -7%;
+  }
+  .flag3 {
+    top: 6%;
+    left: 73%;
+  }
+  .flag3 {
+    top: 6%;
+    left: 73%;
+  }
+  .flag4 {
+    left: 80%;
+  }
+  .flag5 {
+    top: 71%;
+    left: 5%;
+  }
+  .flag6 {
+    top: 72%;
+    left: 53%;
+  }
 }
 @media screen and (max-width: 576px) {
   .about__title {
@@ -466,6 +488,27 @@ button {
     width: 80px;
     height: 80px;
   }
+  .flag0 {
+    left: -18px;
+  }
+  .flag1 {
+    left: -16%;
+    top: -1%;
+  }
+  .flag2 {
+    top: -38px;
+    left: 27%;
+  }
+  .flag4 {
+    left: 66%;
+  }
+  .flag5 {
+    top: 75%;
+    left: 28%;
+  }
+  .flag6 {
+    display: none;
+  }
 }
 @media screen and (max-width: 400px) {
   .about__text {
@@ -474,6 +517,26 @@ button {
   .flags {
     width: 150px;
     height: 150px;
+  }
+  .flag {
+    width: 60px;
+    height: 60px;
+  }
+  .flag0 {
+    left: -22px;
+  }
+  .flag1 {
+    left: -14%;
+    top: 8%;
+  }
+  .flag2 {
+    top: -26px;
+  }
+  .flag4 {
+    left: 75%;
+  }
+  .flag5 {
+    top: 79%;
   }
 }
 @-webkit-keyframes showBlock {

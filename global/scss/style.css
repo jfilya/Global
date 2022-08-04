@@ -63,7 +63,7 @@ button {
 }
 
 .header__container {
-  padding: 30px 22px 84px 8px;
+  padding: 30px 22px 0px 8px;
 }
 .header__nav {
   display: flex;
@@ -136,6 +136,7 @@ button {
   justify-content: space-between;
   align-items: start;
   padding-right: 8px;
+  padding-top: 84px;
 }
 .about__title {
   font-weight: 700;
@@ -365,6 +366,30 @@ button {
     transform: rotate(360deg);
   }
 }
+@-webkit-keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    overflow: hidden;
+  }
+  .about__picture {
+    padding-right: 20px;
+  }
+}
 @media screen and (max-width: 1280px) {
   .about__search {
     width: auto;
@@ -380,6 +405,7 @@ button {
     margin-bottom: 30px;
   }
   .about__picture {
+    padding-right: 0px;
     margin: 0 auto;
   }
 }
@@ -429,42 +455,11 @@ button {
             animation: showBlock 0.5s linear forwards;
   }
   .about__picture {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
   }
   .about__picture-girl {
     max-width: 100%;
-  }
-  .flags {
-    width: 270px;
-    height: 270px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 10%;
-  }
-  .flag1 {
-    left: -16%;
-    top: -7%;
-  }
-  .flag3 {
-    top: 6%;
-    left: 73%;
-  }
-  .flag3 {
-    top: 6%;
-    left: 73%;
-  }
-  .flag4 {
-    left: 80%;
-  }
-  .flag5 {
-    top: 71%;
-    left: 5%;
-  }
-  .flag6 {
-    top: 72%;
-    left: 53%;
   }
 }
 @media screen and (max-width: 576px) {
@@ -480,78 +475,46 @@ button {
     left: 50%;
     transform: translate(-50%, 0);
   }
+}
+@media screen and (max-width: 470px) {
+  .about__picture-girl {
+    max-width: 300px;
+  }
   .flags {
-    width: 170px;
-    height: 170px;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
   .flag {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
   }
   .flag0 {
-    left: -18px;
+    left: -35px;
   }
   .flag1 {
-    left: -16%;
-    top: -1%;
+    left: -5%;
   }
   .flag2 {
-    top: -38px;
-    left: 27%;
+    top: -32px;
+  }
+  .flag3 {
+    left: 81%;
   }
   .flag4 {
-    left: 66%;
+    left: 85%;
   }
   .flag5 {
-    top: 75%;
-    left: 28%;
+    top: 84%;
   }
   .flag6 {
-    display: none;
+    top: 84%;
   }
 }
 @media screen and (max-width: 400px) {
   .about__text {
     font-size: 12px;
-  }
-  .flags {
-    width: 150px;
-    height: 150px;
-  }
-  .flag {
-    width: 60px;
-    height: 60px;
-  }
-  .flag0 {
-    left: -22px;
-  }
-  .flag1 {
-    left: -14%;
-    top: 8%;
-  }
-  .flag2 {
-    top: -26px;
-  }
-  .flag4 {
-    left: 75%;
-  }
-  .flag5 {
-    top: 79%;
-  }
-}
-@-webkit-keyframes showBlock {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes showBlock {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }/*# sourceMappingURL=style.css.map */
